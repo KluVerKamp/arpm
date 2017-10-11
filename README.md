@@ -11,7 +11,7 @@ An [asynchronous iterator](https://github.com/tc39/proposal-async-iteration) tha
 
 ```
 var generate = require('most').generate
-var arpm = require('arpm)
+var arpm = require('arpm')
 
 var rate = Number.parseInt(process.argv[2]) || 78
 var count = 0
